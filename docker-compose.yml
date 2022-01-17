@@ -1,0 +1,10 @@
+# docker-compose.yml
+
+# Declare a server container from express-docker image + mongodb container from mongodb
+services:
+  server:
+    image: express-docker
+    ports:
+      - 5050:5000
+  mongodb:
+    image: mongo
