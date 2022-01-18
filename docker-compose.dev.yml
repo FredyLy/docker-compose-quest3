@@ -17,6 +17,5 @@ services:
     build: ./client
     ports:
       - 8080:3000
-    command: npm start
     volumes:
       - ./client/src:/app/src
